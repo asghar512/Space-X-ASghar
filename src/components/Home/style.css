@@ -1,0 +1,75 @@
+.slider {
+    height: 1000px !important;
+    width: 100% !important;
+    color: #fff;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(https://www.teslarati.com/wp-content/uploads/2019/09/Crew-Dragon-DM-1-orbit-tall-pano-SpaceX-crop-3.jpg);
+
+}
+
+.slider h1 {
+    padding-top: 200px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    animation-delay: 1s;
+    font-weight: bold;
+}
+
+.slider p {
+    font-size: 20px;
+    padding: 20px;
+    animation-delay: 2s;
+    padding-bottom: 20px;
+    padding-inline-start: 200px;
+    padding-inline-end: 200px;
+}
+
+@media only screen and (max-width: 810px) {
+    .slider p {
+        padding-inline-start: 50px;
+        padding-inline-end: 50px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .slider h1 {
+        padding-top: 100px;
+    }
+}
+
+.btn-div {
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+.launch-btn {
+    font-size: 24px;
+    padding: 10px;
+    width: 300px;
+    color: blue;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid blue;
+    border-radius: 12px;
+}
+
+.launch-btn:hover {
+    background: #3398FF;
+}
+
+.launch-btn-link {
+    color: #fff !important;
+}
+
+.launch-btn-link:hover {
+    text-decoration: none;
+}
+.bottom_images{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 22px !important;
+    margin-top: 20px;
+}
+

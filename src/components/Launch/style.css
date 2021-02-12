@@ -1,0 +1,35 @@
+ol {
+    flex-direction: row;
+    display: inline-flex;
+}
+
+.Card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.launch-view {
+    background-color: #000e1a;
+    /* width: 2500px !important; */
+}
+
+.launch-content {
+    border: 6px solid #abdbe3 !important;
+    text-align: center !important;
+}
+
+.btn-launch {
+    margin-left: 0;
+    width: 100%;
+    color: lightblue !important;
+    border-radius: 10%;
+    margin-top: 10px;
+    border: 7px solid green !important;
+}
+
+.btn-launch:hover {
+    color: #fff !important;
+    background-color: #1e81b0;
+    color: #fff !important;
+}

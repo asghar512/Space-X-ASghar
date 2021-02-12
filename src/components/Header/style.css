@@ -1,0 +1,27 @@
+.nav-head {
+    height: auto;
+    width: 100%;
+    background-color: black !important;
+    border-bottom: 4px solid blue(255, 255, 255);
+}
+
+.navbar-collapse {
+    justify-content: center !important;
+    
+        }
+
+.nav-linkl {
+    color: #3398FF;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.nav-linkl:hover {
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+.nav-side{
+    margin-left: 500px;
+}
